@@ -22,3 +22,6 @@ def modulo(a, b):
     if b == 0:
         return "Error: no se puede calcular el modulo con cero"
     return a % b
+
+# Cambio temporal para practicar git stash
+
