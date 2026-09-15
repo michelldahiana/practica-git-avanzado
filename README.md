@@ -1,21 +1,21 @@
-# 🧮 Calculadora en Python — Práctica de Git Avanzado
+# Calculadora en Python — Práctica de Git Avanzado
 
 Proyecto simple de calculadora con operaciones básicas, usado 
 para practicar comandos avanzados de Git.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 - Sumar
 - Restar
 - Multiplicar
 
-## 📝 Cómo ejecutar
+## Cómo ejecutar
 ```
 python calculadora.py
 ```
 
 ---
 
-## 📚 Teoría — Comandos que vas a usar
+## Teoría — Comandos que vas a usar
 
 ### git commit --amend
 Modifica el ÚLTIMO commit que hiciste (cambia su mensaje y/o 
@@ -43,7 +43,7 @@ git reset --soft HEAD~1
 
 ---
 
-## 🎯 Tu tarea
+## Tu tarea
 
 ### Paso 1 — Configurar tu identidad
 ```
@@ -100,5 +100,49 @@ Ejecuta git reflog. En tu README.md, en una sección
 "Investigación adicional", explica en 2-3 líneas qué información 
 muestra este comando.
 
-## ✅ Entrega
+## Entrega
 Link de tu repositorio (fork) + pantallazo de "git log --oneline"
+ 
+
+# Proyecto Calculadora
+
+## ¿Qué es Semantic Versioning?
+
+Semantic Versioning, también conocido como versionado semántico, es una forma
+de identificar las versiones de un software mediante tres números:
+
+MAJOR.MINOR.PATCH
+
+## MAJOR
+
+Es el primer número y cambia cuando se realizan modificaciones grandes que
+pueden romper la compatibilidad con versiones anteriores.
+
+Ejemplo:
+
+v1.0.0 → v2.0.0
+
+Esto podría suceder si se cambia completamente la forma de usar la calculadora
+o se eliminan funciones importantes.
+
+## MINOR
+
+Es el segundo número y cambia cuando se agregan nuevas funcionalidades que no
+rompen el funcionamiento anterior.
+
+Ejemplo:
+
+v1.0.0 → v1.1.0
+
+Esto podría suceder si se agrega una nueva operación, como calcular el porcentaje.
+
+## PATCH
+
+Es el tercer número y cambia cuando se corrigen errores pequeños sin agregar
+funcionalidades grandes.
+
+Ejemplo:
+
+v1.1.0 → v1.1.1
+
+Esto podría suceder si se corrige un error en la operación de división.
